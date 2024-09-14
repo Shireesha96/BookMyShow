@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
+@Entity(name = "Users")
 public class User extends BaseModel{
     private String name;
     private String email;
